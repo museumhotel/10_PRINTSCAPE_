@@ -1,0 +1,51 @@
+html,
+body {
+  /* position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+   */
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+
+  /* leave it to hide the scrollbars */
+  overflow: hidden;
+  background-color: black;
+}
+
+#theCanvas {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 20%;
+  right: 2.5%;
+}
+
+#defaultCanvas0 {
+  /* position: fixed; */
+
+  /*   object-fit: contain;
+ */
+}
+
+/* canvas {
+  transform: translate(-50%, -50%);
+
+  object-fit: contain;
+  max-width: 50%;
+  max-height: 50%;  
+} */
+
+/* moduloCanv {
+   position: fixed;
+
+  background-color: black;
+} */
