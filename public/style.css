@@ -1,0 +1,16 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+
+  /* leave it to hide the scrollbars */
+  overflow: hidden;
+  background-color: black;
+}
