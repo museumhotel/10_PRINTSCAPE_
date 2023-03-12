@@ -3,7 +3,7 @@
 //tz1f6TBqdChGEazWibdgXvzPhMSSiwLpbfHg
 //
 
-import { FXInit, getWeightedOption, FXRandomOption } from "../public/helpers";
+import { FXInit, getWeightedOption, FXRandomOption } from "./helpers.js";
 
 FXInit(fxrand);
 
@@ -251,6 +251,7 @@ let tenPStyle;
 let saveCanvas;
 
 window.setup = () => {
+  pixelDensity(2.5);
   let seedHash = int(fxrand() * 100000000);
   randomSeed(seedHash);
   noiseSeed(seedHash);
